@@ -6,7 +6,7 @@ import "pages/choose_location.dart";
 
 void main() {
   runApp(MaterialApp(
-    initialRoute: '/home',
+    // initialRoute: '/home',
     routes: {
       '/':(context)=>Loading(),
       '/home': (context) => Home(),
